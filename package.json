@@ -1,0 +1,17 @@
+{
+  "name": "manga-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+   "scripts": {
+  "start": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "cd backend && node app.js",
+  "client": "cd frontend && npm run dev"
+},
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
