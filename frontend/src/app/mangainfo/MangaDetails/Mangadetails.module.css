@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    display: flex;
+    padding-right: 60px;
+    padding-left: 60px;
+    justify-content: space-around;
+}
+
+
+.latestmanga{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:normal;
+}
+
+.insidelatest{
+    display: flex;
+     flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.chapdiv1{
+    margin: 10px;
+    border: 1px solid red;
+   
+}
+.chapdiv2{
+    height: 400px;
+    overflow: scroll;
+}
+.chaplist{
+    padding: 5px;
+    cursor: pointer;
+}
+.chaplist :hover{
+      background-color: #222; /* slightly brighter */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* glow */
+}
+
+.bookmarkButton{
+    background-color: red;
+    padding: 5px;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bookmarkButton:hover{
+    background-color: blue;
+}
+.bookmarkdone{
+    background-color: green;
+    padding: 5px;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listWrapper{
+    width: 350px;
+    padding: 7px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(0, 0, 255, 0.2);
+}
+
+.list{
+    width: 100%;    
+    padding: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 200ms;
+}
+.list:hover{
+    background-color: rgba(106, 106, 244, 1);
+}
+
+.list p{
+    font-size: large;
+}

@@ -1,0 +1,196 @@
+.outerdiv{
+    width: 100%;
+    height:200px;
+}
+.div1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.inndiv1{
+        padding-left: 38%;
+        width: 60%;
+}
+.divTitle{
+    width: 100%;
+    box-shadow: 5px 5px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 0 15px 4px rgba(255, 0, 0, 0.6); 
+    justify-content: center;
+}
+.spanTitle{
+    padding:0 5px 2px 5px ;
+    font-size: 40px;
+    background-color: transparent;
+    
+}
+
+.logindiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginWrapper{
+    width: 30%;
+    height: 50%;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+ .loginWrapper button{
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginWrapper button:hover{
+    color:  #dfff80;
+    box-shadow: 0 0 15px 4px rgba(232, 255, 27, 0.6); 
+    background-color:black;
+    font-size: large;
+}
+
+.mainWrapper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+
+}
+.inndiv2{
+    width: 100%;
+    border-radius: 18px;
+    height: 100%;
+    background-color: transparent;
+}
+.inndiv2 ul {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    display: flex;
+        border-radius: 7px;
+
+    align-items: center;    
+    justify-content: space-between;
+}
+.inndiv2 ul li{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border: 1px solid red;
+    font:bold;
+    border-radius: 18px;
+    font-size: larger;
+}
+.inndiv2 ul li a{
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+            border-radius: 18px;
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+
+}
+    .inndiv2 ul li :hover{
+                         border-radius: 18px;
+                        color:  #dfff80;
+    box-shadow: 0 0 15px 4px rgba(232, 255, 27, 0.6); 
+    background-color:black;
+  transform: perspective(500px) translateZ(10px);
+    }
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+
+
+.outerdiv1 ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.outerdiv1 ul li{
+     cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+.innerdiv1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.innerdiv2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerdiv3{
+    width: 100%;
+    height: 50%;
+}
+.innerdiv3 ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerdiv3 ul li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+.innerdiv3 ul li:hover{
+                background-color: #222; /* slightly brighter */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* glow */
+}
+
+.img{
+        float: none;
+        display:flex;
+        align-items: center;
+}

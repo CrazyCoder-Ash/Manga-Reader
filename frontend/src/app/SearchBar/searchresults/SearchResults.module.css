@@ -1,0 +1,19 @@
+.resultsList{
+    width: 20%;
+    position: absolute;
+    z-index: 1000;  
+    background-color: white;
+    color: red;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px #ddd;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow-y: hidden;
+    overflow-x: clip;
+    cursor: pointer;
+}
+
+.resultsList :hover{
+    background: black;
+}

@@ -1,0 +1,36 @@
+
+.search_wrapper{
+    background-color: red;
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+     transition: box-shadow 0.3s ease;
+
+}
+
+
+.search_wrapper:focus-within{
+    background-color: black;
+    border: 1px solid rgb(223, 255, 128,0.4);
+    box-shadow: 0 0 15px 4px rgba(232, 255, 27, 0.6); 
+
+}
+.inputWrapper{
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    font-size: large;
+    width: 100%;
+    margin-left: 5px;
+    }
+.inputWrapper::placeholder {
+  color: white;
+  opacity: 1; /* Optional: make sure it's fully visible */
+}
+.inputWrapper:focus{
+    outline: none;
+}
